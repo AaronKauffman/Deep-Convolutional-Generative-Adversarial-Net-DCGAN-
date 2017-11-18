@@ -6,8 +6,8 @@ A tensorflow implementation of ![Deep Convolutional Generative Adversarial Net (
 I train and evaluate my model on CIFAR-10 Dataset. However, you can perform it on your own datasets
 
 # Requirements
-  python 2.7
-  tensorflow
+  python 2.7 \<br /\> 
+  tensorflow \<br /\> 
   cPickle
   numpy
   Scipy
