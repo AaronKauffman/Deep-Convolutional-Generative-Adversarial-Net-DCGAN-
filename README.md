@@ -23,7 +23,9 @@ download data from ![here](https://www.cs.toronto.edu/~kriz/cifar.html)
 <br>
 ## train
 $ cd ...(directory you place the repository)
+<br>
 $ python main.py --mode train
+<br>
 ## evaluate your trained model
 $ python main.py --mode eval
 <br>
