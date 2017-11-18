@@ -15,7 +15,6 @@ I train and evaluate my model on CIFAR-10 Dataset. However, you can perform it o
   <br>
   <br>
 # Usage
----
 <br>
 ## Clone the repository
 $ git clone https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-.git
