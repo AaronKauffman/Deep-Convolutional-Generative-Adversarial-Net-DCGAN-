@@ -1,5 +1,4 @@
-Deep-Convolutional-Generative-Adversarial-Net-DCGAN-
-===
+# Deep-Convolutional-Generative-Adversarial-Net-DCGAN-
 A tensorflow implementation of ![Deep Convolutional Generative Adversarial Net (DCGAN)](https://arxiv.org/pdf/1511.06434.pdf)
 <br>
 ![DCGAN](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/net_structure.png)
@@ -7,8 +6,7 @@ A tensorflow implementation of ![Deep Convolutional Generative Adversarial Net (
 I train and evaluate my model on CIFAR-10 Dataset. However, you can perform it on your own datasets
 <br>
 <br>
-Requirements
----
+# Requirements
   python 2.7<br>
   tensorflow<br>
   cPickle<br>
@@ -16,28 +14,32 @@ Requirements
   Scipy<br>
   <br>
   <br>
-Usage
+# Usage
 ---
 <br>
-# Clone the repository
+## Clone the repository
 $ git clone https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-.git
 <br>
-# Download CIFAR-10 Dataset
+## Download CIFAR-10 Dataset
 download data from ![here](https://www.cs.toronto.edu/~kriz/cifar.html)
 <br>
+## train
+$ cd ...(directory you place the repository)
+$ python main.py --mode train
+## evaluate your trained model
+$ python main.py --mode eval
 <br>
-My results
----
 <br>
-# loss curve during training (for 20 epochs)
+# My results
+<br>
+## loss curve during training (for 20 epochs)
 ![loss_curve](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/loss_curve.png)
 <br>
-# sampled images from trained model
+## sampled images from trained model
 ![sample_1](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/sample_1.png)
 <br>
 ![sample_2](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/sample_2.png)
 <br>
 <br>
-Acknowledgements
----
+# Acknowledgements
 Alec Radford, Luke Metz, Soumith Chintala. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. ICLR 2016.
