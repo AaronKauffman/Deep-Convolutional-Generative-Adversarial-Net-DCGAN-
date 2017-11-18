@@ -15,7 +15,6 @@ I train and evaluate my model on CIFAR-10 Dataset. However, you can perform it o
   <br>
   <br>
 # Usage
-<br>
 ## Clone the repository
 $ git clone https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-.git
 <br>
@@ -30,7 +29,6 @@ $ python main.py --mode eval
 <br>
 <br>
 # My results
-<br>
 ## loss curve during training (for 20 epochs)
 ![loss_curve](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/loss_curve.png)
 <br>
