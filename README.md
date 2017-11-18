@@ -12,6 +12,8 @@ I train and evaluate my model on CIFAR-10 Dataset. However, you can perform it o
   numpy
   Scipy
   
+
+
 # Usage
 
 ## Clone the repository
@@ -27,6 +29,8 @@ $ python main.py --mode train
 ## Evaluate your trained model by sampling
 $ python main.py --mode eval
 
+
+
 # My results
 
 ## loss curve during training (for 20 epochs)
@@ -36,6 +40,8 @@ $ python main.py --mode eval
 ![sample_1](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/sample_1.png)
 
 ![sample_2](https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversarial-Net-DCGAN-/blob/master/sample_2.png)
+
+
 
 # Acknowledgements
 Alec Radford, Luke Metz, Soumith Chintala. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. ICLR 2016.
