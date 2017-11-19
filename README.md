@@ -21,6 +21,9 @@ $ git clone https://github.com/Szy-Young/Deep-Convolutional-Generative-Adversari
 ## Download CIFAR-10 Dataset
 download data from ![here](https://www.cs.toronto.edu/~kriz/cifar.html)
 <br>
+## Make necessary settings
+open main.py and make necessary settings like learning_rate, batch_size and directories you'd like to place your results
+<br>
 ## train
 $ cd ...(directory you place the repository)
 <br>
